@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Books Library</title>
+    <!-- -----Bootstrap cCDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- -------FontAwsome CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" <!-- ----CSS CDN -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- -----header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-3">
+                    <div class="btn-group">
+                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">USD</button>
+                        <!-- <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">ERU-Euro</a>
+                            </div> -->
+                    </div>
+                </div>
+                <div class="col-md-4 col-9 text-center">
+                    <h2 class="my-md-3 site-title text-white">Online Library Store</h2>
+                </div>
+                <div class="col-md-4 text-end">
+                    <p class="my-md-4 header-links">
+                        <a href="#" class="px-2">Sign In</a>
+                        <a href="#" class="px-1">Creat An Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------ -->
+
+        <div class="topnav">
+            <a  href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact">Info</a>
+            <a href="#contact">Description</a>
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        </nav>
+        </div>
+    </header>
+    <!-- ----Main -->
+    <main>
+
+        <!----------------First Slider------------------------->
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./img/library-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Your Dream Library</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque minus nisi rem
+                            temporibus voluptatum.</p>
+                        <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./img/library-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5 class=" text-dark">Alaways Dedicated</h5>
+                        <p class=" text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque minus
+                            nisi rem temporibus voluptatum.</p>
+                        <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/library-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Your Dream Library</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque minus nisi rem
+                            temporibus voluptatum.</p>
+                        <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- -------------------------------------- -->
+        <div class="container text-center">
+            <div class="row header-books">
+                <div class="col-md-7 col-sm-12 books-des">
+                    <h6>AUTHOR:DAILY TUTION</h6>
+                    <h1>EXCITING ADVENTURE</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime enim voluptatem
+                        .</p>
+                    <button class="btn btn-light px-5 py-2">By Now For $5.99</button>
+                </div>
+                <div class="col-md-5 col-sm-12 books h-30">
+                    <img src="./img/book.png" alt="books">
+                </div>
+            </div>
+        </div>
+        <!-------------------Second Slider------------------>
+        <div class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="pray">
+                            <img src="./img/pray.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel text-left">
+                            <h1>Mansur Rahman</h1>
+                            <p class="pt-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugiat natus nulla
+                                consectetur debitis placeat adipisci! Quasi tempora facere similique Lorem ipsum dolor
+                                sit amet. !
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facilis iusto aperiam ipsum
+                                illo voluptate eos! Ipsa eveniet sunt voluptas optio molestiae labore voluptates
+                                pariatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cupiditate.
+                                .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section-2 container-fluid p-0">
+            <div class="cover">
+                <div class="content text-center">
+                    <h1>Some Feture That Made Us UniQ</h1>
+                    <p>Lorem ipsum dolor sit amet elit. Hic, tenetur.</p>
+                </div>
+            </div>
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1>2345</h1>
+                        <p>Hapy Clint</p>
+                    </div>
+                    <div class="rect">
+                        <h1>2345</h1>
+                        <p>Hapy Clint</p>
+                    </div>
+                    <div class="rect">
+                        <h1>2345</h1>
+                        <p>Hapy Clint</p>
+                    </div>
+                    <div class="rect">
+                        <h1>2345</h1>
+                        <p>Hapy Clint</p>
+                    </div>
+                </div>
+            </div>
+            <div class="purchase text-center">
+                <h1>Purchase Whatever You want</h1>
+                <p>Lorem ipsum sit amet consectetur elit. Consequuntur, minima!</p>
+                <div class="cards">
+                    <div class="d-flex flex-row justify-content-center flex-wrap">
+                        <!-- -------First Cards -->
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">PDF</h5>
+                                </div>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="pricing">
+                                    <h1>$77.98</h1>
+                                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">Purchasee Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second-cards -->
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">E-Book</h5>
+                                </div>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="pricing">
+                                    <h1>$99.99</h1>
+                                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">Purchasee Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ---third cards -->
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">Print Copy</h5>
+                                </div>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="pricing">
+                                    <h1>$58.99</h1>
+                                    <a href="#" class="btn btn-dark px-5 py-2 mb-5">Purchasee Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-3 container-fluid p-0 text-center">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1>Download Our App For All Platforms</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id mollitia distinctio at vel
+                        voluptatibus ullam earum aut eaque est aliquam!</p>
+                </div>
+            </div>
+            <div class="platform row">
+                <div class="col-md-6 col-sm-12 text-right">
+                    <div class="desktop shadow-lg">
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+                            <div class="text text- px-3">
+                                <h3 class="pt-1 m-0">Desktop</h3>
+                                <p class="p-0 m-0">On Website</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 left-left">
+                    <div class="desktop shadow-lg">
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
+                            <div class="text text-left px-3">
+                                <h3 class="pt-1 m-0">On Mobile</h3>
+                                <p class="p-0 m-0">On Play Store</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-4">
+            <div class="container text-center">
+                <h1 class="text-dark">What Our Reader's Say About Us</h1>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="team row">
+                <div class="col-md-4 col-12 text-center">
+                    <!-- ----card-1 -->
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="./img/pimg1.jpg" class="img-fluid border-radius p-4" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Mansur Rahman</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque corrupti iste saepe
+                                quia, omnis obcaecati voluptatibus, eum ipsum adipisci voluptates dolor tempora vitae
+                                repellendus!
+                            </p>
+                            <a href="#" class="text-info text-decoration-none">Go SomeWhere</a>
+                            <p class="text-black-50">CEO at google</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <!-- ----card-2 -->
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="./img/caro-1.jpg" class="img-fluid border-radius p-4" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Mansur Rahman</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque corrupti iste saepe
+                                quia, omnis obcaecati voluptatibus, eum ipsum adipisci voluptates dolor tempora vitae
+                                repellendus!
+                            </p>
+                            <a href="#" class="text-info text-decoration-none">Go SomeWhere</a>
+                            <p class="text-black-50">CEO at google</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <!-- ----card-3 -->
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="./img/caro-2.jpg" class="img-fluid border-radius p-4" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Mansur Rahman</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque corrupti iste saepe
+                                quia, omnis obcaecati voluptatibus, eum ipsum adipisci voluptates dolor tempora vitae
+                                repellendus!
+                            </p>
+                            <a href="#" class="text-info text-decoration-none">Go SomeWhere</a>
+                            <p class="text-black-50">CEO at google</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <!-------Footer------------->
+    <footer>
+        <div class="container-fluid p-0">
+            <div class="row text-left">
+                <div class="col-md-5 col-md-5">
+                    <h1 class="text-light">About Us</h1>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolore?
+                    </p>
+                    <p class="pt-4 text-muted">
+                        Copyright @2020 All Reserved are this tamplete is made
+                        <span>SOBUJ</span> Practice
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <h4 class="text-light">Newslatter</h4>
+                    <p class="text-muted">Stay Updated</p>
+                    <form action="" class="form-inline">
+                        <div class="col pl-">
+                            <div class="input-group pr-5">
+                                <input type="text" class="form-control bg-dark text-white" placeholder="Email">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <h4 class="text-light">Follow Us</h4>
+                    <p class="text-muted">Let Us be Social</p>
+                    <div class="column">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- ----------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
